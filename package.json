@@ -1,0 +1,16 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d crud"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://nanogrunge.github.oi/crudes6wclasses",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

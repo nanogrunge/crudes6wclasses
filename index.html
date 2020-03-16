@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD </title>
+</head>
+<body>
+    <div class="container">
+        <table>
+
+        </table>
+    </div>
+    <div class="container">
+        <form id="formu"  onkeydown="return event.key != 'Enter';">
+            <input  id="index"  type="text" style="display:none">
+            <input id="name" type="text" placeholder="name" >
+            <input id="lastName" type="text" placeholder="lastname" >
+            <input id="email" type="text" placeholder="email" >
+            <button id="subm" class="submit btn blue">Submit</button>
+            <button id="update" class="btn-small" style="display:none" > update</button>
+        </form>
+    </div>
+    <div class="container">
+        <table id="table" class="collection centered">
+           <thead>
+           <tr>
+               <th>Name</th>
+               <th>LastName</th>
+               <th> Email</th>
+           </tr>
+       </thead>
+       <tbody id="usersTbl" class="collection-item">
+
+       </tbody>
+        </table>        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
